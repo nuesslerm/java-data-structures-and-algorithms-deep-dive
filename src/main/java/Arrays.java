@@ -12,8 +12,14 @@ public class Arrays {
     intArr[5] = 1;
     intArr[6] = -22;
 
-    for (int i = 0; i < 8; i++) {
-      System.out.printf("index %s: %s \n", i, intArr[i]);
+    int index = -1;
+    for (int i = 0; i < intArr.length; i++) {
+      // System.out.printf("index %s: %s \n", i, intArr[i]);
+      if (intArr[i] == 7) {
+        index = i;
+        break;
+      }
     }
+    System.out.println("index = " + index);
   }
 }
