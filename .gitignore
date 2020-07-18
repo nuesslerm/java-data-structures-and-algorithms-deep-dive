@@ -23,5 +23,5 @@
 hs_err_pid*
 
 # Default ignored files
-/shelf/
-/workspace.xml
+.idea/shelf/
+.idea/workspace.xml
