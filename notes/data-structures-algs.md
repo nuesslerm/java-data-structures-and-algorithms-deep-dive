@@ -23,6 +23,13 @@ an implementation is the code that you write to perform an algorithm
 - there can be many algorithms that accomplish the same task
 - there can be many implementations of the same algorithm
 
+O(1) constant
+O(logn) logarithmic
+O(n) linear
+O(nlogn) n log-star n
+O(n^2) quadratic
+
+
 
 
 
