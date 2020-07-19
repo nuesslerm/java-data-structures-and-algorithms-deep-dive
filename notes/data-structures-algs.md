@@ -67,5 +67,16 @@ Bubble Sort
 - O(n^2) time complexity - quadratic
 - algorithms with quadratic time complexity degrade quickly
 
+Stable vs unstable sort
 
+- relative ordering of duplicate items must be preserved for a sort to be stable
+- stable sort is generally preferred
+- a sort shouldn't change the order of duplicate items
+- our bubble sort implementation is a stable sorting algorithm because we only switch adjacent items when the first item
+  is larger than the second item; if we instead put >= then the implementation would become an unstable sort
+- be aware of possibility of unstable sort implementations if you use ==, >=, <= condition wrongly
+
+Selection Sort
+
+- 
 
