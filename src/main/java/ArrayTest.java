@@ -1,4 +1,4 @@
-public class Arrays {
+public class ArrayTest {
   public static void main(String[] args) {
     // arrays are non-dynamic data structures
     // this array will always be able to only hold 7 elements
