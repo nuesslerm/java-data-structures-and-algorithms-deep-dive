@@ -83,3 +83,7 @@ Selection Sort
 - doesn't require as much swapping as bubble sort
 - unstable algorithm (?)
 
+Insertion Sort
+
+- in-place algorithm
+- 

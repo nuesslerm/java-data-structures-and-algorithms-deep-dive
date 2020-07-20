@@ -1,3 +1,5 @@
+package com.nuesslerm.cs.sortalgs;
+
 import java.util.Arrays;
 
 public class SelectionSort {
