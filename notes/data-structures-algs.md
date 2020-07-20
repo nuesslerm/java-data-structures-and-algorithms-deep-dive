@@ -86,4 +86,5 @@ Selection Sort
 Insertion Sort
 
 - in-place algorithm
-- 
+- O(n^2) time complexity - quadratic
+- stable algorithm

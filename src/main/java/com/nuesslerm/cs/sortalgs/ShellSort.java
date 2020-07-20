@@ -2,14 +2,14 @@ package com.nuesslerm.cs.sortalgs;
 
 import java.util.Arrays;
 
-public class InsertionSort {
+public class ShellSort {
   public static void main(String[] args) {
     int[] intArr = new int[] {20, 35, -15, 7, 55, 1, -22, };
 
-    System.out.println("result: " + Arrays.toString(insertionSort(intArr)));
+    System.out.println("result: " + Arrays.toString(shellSort(intArr)));
   }
 
-  public static int[] insertionSort(int[] arr) {
+  public static int[] shellSort(int[] arr) {
     System.out.println(arr.length);
 
     for (int firstUnsortedIndex = 1;
@@ -18,19 +18,10 @@ public class InsertionSort {
 
       int newElement = arr[firstUnsortedIndex];
 
-//      int i;
-//
-//      for (i = firstUnsortedIndex - 1; i >= 0 && newElement < arr[i]; i--) {
-//        arr[i + 1] = arr[i];
-//      }
-//
-//      arr[i + 1] = newElement;
+      int i;
 
-      int i = firstUnsortedIndex - 1;
-
-      while (i >= 0 && newElement < arr[i]) {
+      for (i = firstUnsortedIndex - 1; i >= 0 && newElement < arr[i]; i--) {
         arr[i + 1] = arr[i];
-        i--;
       }
 
       arr[i + 1] = newElement;
