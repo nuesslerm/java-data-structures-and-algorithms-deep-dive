@@ -1,13 +1,13 @@
 import java.util.Arrays;
 
-public class SelectionSort {
+public class InsertionSort {
   public static void main(String[] args) {
     int[] intArr = new int[] {20, 35, -15, 7, 55, 1, -22};
 
-    System.out.println("result: " + Arrays.toString(selectionSort(intArr)));
+    System.out.println("result: " + Arrays.toString(insertionSort(intArr)));
   }
 
-  public static int[] selectionSort(int[] arr) {
+  public static int[] insertionSort(int[] arr) {
     for (int lastUnsortedIndex = arr.length - 1;
          lastUnsortedIndex > 0;
          lastUnsortedIndex--) {

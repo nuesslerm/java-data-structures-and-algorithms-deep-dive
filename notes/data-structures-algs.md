@@ -78,5 +78,8 @@ Stable vs unstable sort
 
 Selection Sort
 
-- 
+- in-place algorithm
+- O(n^2) time complexity - quadratic
+- doesn't require as much swapping as bubble sort
+- unstable algorithm (?)
 
